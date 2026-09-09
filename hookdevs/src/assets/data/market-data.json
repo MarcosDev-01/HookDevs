@@ -1,0 +1,115 @@
+{
+  "updatedAt": "2026-06-22T00:00:00-03:00",
+  "period": "1T 2026",
+  "source": "INDEC · EPH",
+  "indicators": {
+    "activity": 48.6,
+    "employment": 44.8,
+    "unemployment": 7.8,
+    "informality": 44.2,
+    "occupiedDemand": 15.8,
+    "subocupacion": 11.1
+  },
+  "regions": [
+    { "name": "Noroeste", "employment": 44.3, "unemployment": 4.9 },
+    { "name": "Patagonia", "employment": 42.8, "unemployment": 5.0 },
+    { "name": "Cuyo", "employment": 45.1, "unemployment": 5.5 },
+    { "name": "Noreste", "employment": 42.1, "unemployment": 7.2 },
+    { "name": "Total 31 aglomerados", "employment": 44.8, "unemployment": 7.8 },
+    { "name": "Pampeana", "employment": 45.8, "unemployment": 8.2 },
+    { "name": "Gran Buenos Aires", "employment": 44.8, "unemployment": 8.7 }
+  ],
+  "quarters": [
+    { "label": "1T 2025", "employment": 44.4, "unemployment": 7.9 },
+    { "label": "2T 2025", "employment": 44.5, "unemployment": 7.6 },
+    { "label": "3T 2025", "employment": 45.4, "unemployment": 6.6 },
+    { "label": "4T 2025", "employment": 45.0, "unemployment": 7.5 },
+    { "label": "1T 2026", "employment": 44.8, "unemployment": 7.8 }
+  ],
+  "territorialRegions": [
+    {
+      "id": "gba",
+      "name": "Gran Buenos Aires (GBA)",
+      "short": "GBA",
+      "provinces": ["caba", "buenos-aires"],
+      "employment": 43.7,
+      "unemployment": 9.1,
+      "activity": 47.8,
+      "subocupacion": 12.3,
+      "evolution": [40.9, 41.6, 42.4, 43.2, 43.7],
+      "techs": ["JavaScript", "React", "Java", "Python", "Node.js", ".NET", "SQL", "AWS"]
+    },
+    {
+      "id": "centro",
+      "name": "Centro",
+      "short": "Centro",
+      "provinces": ["cordoba", "santa-fe", "entre-rios", "la-pampa"],
+      "employment": 45.8,
+      "unemployment": 8.2,
+      "activity": 49.9,
+      "subocupacion": 10.7,
+      "evolution": [44.1, 44.6, 45.5, 45.1, 45.8],
+      "techs": ["JavaScript", "SQL", ".NET", "Python", "Java", "Power BI"]
+    },
+    {
+      "id": "cuyo",
+      "name": "Cuyo",
+      "short": "Cuyo",
+      "provinces": ["mendoza", "san-juan", "san-luis", "la-rioja"],
+      "employment": 45.1,
+      "unemployment": 5.5,
+      "activity": 50.2,
+      "subocupacion": 8.7,
+      "evolution": [43.0, 43.6, 44.2, 44.6, 45.1],
+      "techs": ["React", "JavaScript", "Python", ".NET", "AWS", "Node.js"]
+    },
+    {
+      "id": "noa",
+      "name": "Noroeste (NOA)",
+      "short": "NOA",
+      "provinces": ["jujuy", "salta", "tucuman", "catamarca", "santiago"],
+      "employment": 44.3,
+      "unemployment": 4.9,
+      "activity": 47.0,
+      "subocupacion": 9.4,
+      "evolution": [42.6, 43.0, 43.7, 43.9, 44.3],
+      "techs": ["Java", "SQL", "JavaScript", "PHP", "Python"]
+    },
+    {
+      "id": "nea",
+      "name": "Noreste (NEA)",
+      "short": "NEA",
+      "provinces": ["formosa", "chaco", "misiones", "corrientes"],
+      "employment": 42.1,
+      "unemployment": 7.2,
+      "activity": 45.6,
+      "subocupacion": 11.8,
+      "evolution": [40.5, 40.9, 41.6, 41.7, 42.1],
+      "techs": ["JavaScript", "Java", "SQL", "PHP"]
+    },
+    {
+      "id": "patagonia",
+      "name": "Patagonia",
+      "short": "Patagonia",
+      "provinces": ["neuquen", "rio-negro", "chubut", "santa-cruz", "tierra-del-fuego"],
+      "employment": 42.8,
+      "unemployment": 5.0,
+      "activity": 45.7,
+      "subocupacion": 9.1,
+      "evolution": [41.3, 41.7, 42.2, 42.5, 42.8],
+      "techs": ["Python", "AWS", "JavaScript", "React", "SQL"]
+    }
+  ],
+  "techCatalog": {
+    "JavaScript": { "mark": "JS", "color": "#f2c94c", "ink": "#241d02" },
+    "React": { "mark": "⚛", "color": "#22d3ee", "ink": "#04262b" },
+    "Java": { "mark": "☕", "color": "#e6543a", "ink": "#2a0a03" },
+    "Python": { "mark": "Py", "color": "#3f8ecb", "ink": "#eefaff" },
+    "Node.js": { "mark": "⬡", "color": "#3fae57", "ink": "#08210d" },
+    ".NET": { "mark": ".NET", "color": "#8b5cf6", "ink": "#ffffff" },
+    "SQL": { "mark": "SQL", "color": "#9aa7b4", "ink": "#0c1620" },
+    "AWS": { "mark": "AWS", "color": "#f5a623", "ink": "#2a1600" },
+    "PHP": { "mark": "PHP", "color": "#7c8ecb", "ink": "#10142a" },
+    "Power BI": { "mark": "BI", "color": "#f2c94c", "ink": "#241d02" }
+  }
+}
